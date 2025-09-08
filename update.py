@@ -181,7 +181,7 @@ def get_latest_user_agents():
     user_agents.extend(generate_chrome_user_agents())
     user_agents.extend(generate_firefox_user_agents())
     user_agents.extend(generate_safari_user_agents())
-    user_agents.extend(generate_edge_user_agents())
+    # user_agents.extend(generate_edge_user_agents())
     return user_agents
 
 
